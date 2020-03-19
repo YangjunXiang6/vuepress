@@ -1,0 +1,33 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+// 配置npm scripts
+"scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+ }
+
+// VuePress 以本地依赖的形式被安装
+"devDependencies": {
+    "vuepress": "^0.14.8"
+}
+
+
+
+
+
+
+
+
+
+
